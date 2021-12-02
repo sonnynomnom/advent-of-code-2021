@@ -22,8 +22,7 @@ for i in range(len(commands)):
   if commands[i][0] == 'd':
     depth += int(commands[i][len(commands[i])-1])
 
-answer1 = horizontal * depth
-print(answer1)
+print(horizontal * depth)
 
 # ========== Part 2 ==========
 
@@ -40,5 +39,4 @@ for i in range(len(commands)):
   if commands[i][0] == 'd':
     aim += int(commands[i][len(commands[i])-1])
 
-answer2 = horizontal * depth
-print(answer2)
+print(horizontal * depth)
